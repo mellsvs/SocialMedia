@@ -13,11 +13,11 @@ allprojects {
     apply from: "${rootDir}/dependencies.gradle"
 }
 subprojects {
-    group = 'com.muhammet'
+    group = 'com.meltem'
     version = 'v.0.1'
     java{
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_22
+        targetCompatibility = JavaVersion.VERSION_22
     }
     tasks.withType(JavaCompile).tap {
         configureEach {
@@ -40,7 +40,6 @@ allprojects {
     }
     dependencies {
         implementation libs.springBootStarterWeb
-        implementation libs.swaggerui
     }
     test{
         useJUnitPlatform()
