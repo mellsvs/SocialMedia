@@ -72,7 +72,7 @@ docker build --platform linux/amd64 -t muhammedali55/egitimconfigserver:v01 .
 
 docker build --platform linux/amd64 -t muhammedali55/egitimauth:v02 .
 
-
 docker build --platform linux/amd64 -t muhammedali55/egitimuser:v02 .
 
 ````
+## http://localhost:9091/swagger-ui/index.html
